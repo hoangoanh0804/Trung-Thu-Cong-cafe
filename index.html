@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- Latest compiled and minified CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+            integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <link rel="stylesheet" href="style.css" />
+        <title>Cộng cafe - Trung Thu 2023</title>
+    </head>
+    <body>
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg bg-green fixed-top border-bottom w-100">
+            <div class="container d-flex">
+                <a class="navbar-brand" href="#"><img src="img/logo.jpg" alt="" /></a>
+
+                <div class="collapse navbar-collapse mx-5" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item ms-4">
+                            <a class="nav-link fw-800 color-white hover transition" href="#">Giới Thiệu</a>
+                        </li>
+                        <li class="nav-item ms-4">
+                            <a class="nav-link fw-800 color-white hover transition" href="#">Sản Phẩm</a>
+                        </li>
+                        <li class="nav-item ms-4">
+                            <a class="nav-link fw-800 color-white hover transition" href="#">Ưu Đãi</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <button class="btn btn-outline-success me-2 bg-white color-red p-2 px-4 btnhover transition fw-800" type="button">
+                    Đặt Mua Ngay
+                </button>
+            </div>
+        </nav>
+
+        <!-- banner -->
+
+        <div id="carouselExampleSlidesOnly" class="carousel slide mrt-80" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/banner.png" class="d-block w-100" alt="..." />
+                </div>
+            </div>
+        </div>
+
+        <!-- introduce -->
+
+        <div class="introduce pd-40">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="introduce mt-lg-5 mt-2 mb-4">
+                            <img src="img/introduce.png" alt="" />
+                        </div>
+                    </div>
+                    <div class="col-md-6 pdlr-40 color-green">
+                        <div class="introduce-headline mt-lg-5 mt-2 mb-4">
+                            <h4 class="introduce-subheading h6 color-green mb-4 mt-4">TRUNG THU 2023</h4>
+                            <h4 class="introduce-subheading-2 h2 color-secondary mb-5">Giới Thiệu</h4>
+
+                            <p class="introduce-desc color-primary mt-3 mb-4">
+                                Mùa trăng năm nay, Cộng Cà Phê có hộp Bánh Trung Thu trông hao hao cuốn sách, mở ra có cả chú chuồn chuồn tre được làm
+                                thủ công tại làng Thạch Xá, Hà Nội.
+                            </p>
+                            <p class="introduce-desc color-primary mt-3 mb-4">
+                                Một chút kỷ niệm dịu dàng thân yêu tặng bạn! Chúc bạn có một mùa Tết Trung Thu yên - lành, đầy ắp tiếng cười bên những
+                                người thân yêu.
+                            </p>
+
+                            <button
+                                class="btn-introduce btn btn-outline-success me-2 bg-green color-white p-2 px-4 btn2hover transition fw-800 mrt-40"
+                                type="button"
+                            >
+                                Đặt Mua Ngay
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- story -->
+
+        <div class="story pd-80 position-relative">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="story mt-lg-5 mt-2 mb-4">
+                            <!-- <img src="img/story.png" alt="" /> -->
+                        </div>
+                    </div>
+                    <div class="col-md-6 pdlr-40">
+                        <div class="story-headline mt-lg-5 mt-2 mb-4">
+                            <h4 class="story-subheading h6 mb-4">Làng Thạch Xá có</h4>
+                            <h4 class="story-subheading2 h2 mb-5 mt-5">Chuồn chuồn tre ...</h4>
+
+                            <p class="story-desc mb-4">
+                                Một món quà dung dị gợi lại những kỷ niệm đẹp thời thơ ấu của biết bao thế hệ người Việt Nam.
+                            </p>
+                            <p class="story-desc mb-4">
+                                Từ bàn tay khéo léo của các nghệ nhân làng Thạch Xá, trải qua mười bước làm thủ công, những chú chuồn chuồn tre nhiều
+                                màu sắc đã được tạo nên.
+                            </p>
+
+                            <p class="story-desc mb-4">
+                                Chúng mình mong rằng món quà nhỏ này sẽ gợi lại những hạnh phúc bình dị trong tuổi thơ của bạn.
+                            </p>
+                            <div class="story-box"><img class="img-story" src="img/story.png" alt="" /></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- cate -->
+
+        <div class="cate-box bg-green">
+            <div class="linestory"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="cate mt-lg-5 mt-2 position-relative">
+                            <img class="img-cate" src="img/cate.png" alt="" />
+                            <img class="img-cate-text" src="img/cate-text.png" alt="" />
+                            <div class="cate-line"></div>
+                            <p class="cate-subheading h6 mb-4">
+                                Kiên trì giữ gìn các giá trị truyền thống, và không ngừng đổi mới để mang lại những sản phẩm có ích cho sức khỏe của
+                                khách hàng, năm nay, Bánh Trung thu của Cộng được làm từ bột nguyên cám, mật ong và được tạo màu từ các loại rau củ.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img class="img-slide" src="img/slide1.jpg" class="d-block w-100" alt="..." />
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/slide2-2.jpg" class="d-block w-100" alt="..." />
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/silde3-3.jpg" class="d-block w-100" alt="..." />
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- play -->
+
+        <div class="introduce pd-80">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h4 class="introduce-subheading2 h2 mb-5 mt-5">
+                            ĐỪNG QUÊN, CỘNG CÓ HỘP BÁNH TRUNG THU KÈM CẢ TRÀ XANH SHAN TUYẾT CỔ THỤ HỮU CƠ, ĐỦ ĐẦY CHO MỘT TẾT ĐOÀN VIÊN YÊN VUI, NGỌT
+                            LÀNH.
+                        </h4>
+
+                        <img class="img-play2" src="img/play.png" alt="" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- banner2 -->
+
+        <div class="banner2 pd-80">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <!-- <img class="img-play2" src="img/play.png" alt="" /> -->
+                        <p class="img-play">CỘNG MỜI BẠN!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- product -->
+
+        <div class="product pd-80">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="product-line bg-white"></div>
+                        <h4 class="product-subheading h2 color-white text-shadow">HƯƠNG VỊ THUẦN TỰ NHIÊN</h4>
+                        <p class="product-subheading2 h2 color-white-200">
+                            Đón một mùa trăng Hồn nhiên - Yên - Lành cùng Cộng với 6 vị bánh trung thu đặc trưng cùng Trà Xanh Shan Tuyết Cổ Thụ hữu
+                            cơ:
+                        </p>
+                    </div>
+                </div>
+
+                <div class="product-card mrt-80">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-8">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <a href="" class="card border-0 bg-white-200 mb-5 p-2 product-item-card">
+                                            <div class="card-img-top"><img src="img/product01.png" alt="Card image" /></div>
+                                            <div class="card-body">
+                                                <div class="line">
+                                                    <p class="pr-card-line"></p>
+                                                    <p>125g</p>
+                                                </div>
+                                                <div class="title">
+                                                    <p>thập cẩm truyền thống</p>
+                                                    <i class="fa-regular fa-square-check"></i>
+                                                </div>
+
+                                                <button class="product-card-btn">Xem Chi Tiết</button>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <a href="" class="card border-0 bg-white-200 mb-5 p-2 product-item-card">
+                                            <div class="card-img-top"><img src="img/product02.png" alt="Card image" /></div>
+                                            <div class="card-body">
+                                                <div class="line">
+                                                    <p class="pr-card-line"></p>
+                                                    <p>125g</p>
+                                                </div>
+                                                <div class="title">
+                                                    <p>bạc xỉu</p>
+                                                    <i class="fa-regular fa-square-check"></i>
+                                                </div>
+
+                                                <button class="product-card-btn">Xem Chi Tiết</button>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <a href="" class="card border-0 bg-white-200 mb-5 p-2">
+                                            <div class="card-img-top"><img src="img/product03.png" alt="Card image" /></div>
+                                            <div class="card-body">
+                                                <div class="line">
+                                                    <p class="pr-card-line"></p>
+                                                    <p>125g</p>
+                                                </div>
+                                                <div class="title">
+                                                    <p>Cốm dừa dẻo</p>
+                                                    <i class="fa-regular fa-square-check"></i>
+                                                </div>
+
+                                                <button class="product-card-btn">Xem Chi Tiết</button>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <a href="" class="card border-0 bg-white-200 mb-5 p-2">
+                                            <div class="card-img-top"><img src="img/product04.png" alt="Card image" /></div>
+                                            <div class="card-body">
+                                                <div class="line">
+                                                    <p class="pr-card-line"></p>
+                                                    <p>125g</p>
+                                                </div>
+                                                <div class="title">
+                                                    <p>trà xanh hạt bí</p>
+                                                    <i class="fa-regular fa-square-check"></i>
+                                                </div>
+
+                                                <button class="product-card-btn">Xem Chi Tiết</button>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <a href="" class="card border-0 bg-white-200 mb-5 p-2">
+                                            <div class="card-img-top"><img src="img/product05.png" alt="Card image" /></div>
+                                            <div class="card-body">
+                                                <div class="line">
+                                                    <p class="pr-card-line"></p>
+                                                    <p>125g</p>
+                                                </div>
+                                                <div class="title">
+                                                    <p>Sầu riêng trứng muối</p>
+                                                    <i class="fa-regular fa-square-check"></i>
+                                                </div>
+
+                                                <button class="product-card-btn">Xem Chi Tiết</button>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <a href="" class="card border-0 bg-white-200 mb-5 p-2">
+                                            <div class="card-img-top"><img src="img/product06.png" alt="Card image" /></div>
+                                            <div class="card-body">
+                                                <div class="line">
+                                                    <p class="pr-card-line"></p>
+                                                    <p>125g</p>
+                                                </div>
+                                                <div class="title">
+                                                    <p>Khoai tím trứng muối</p>
+                                                    <i class="fa-regular fa-square-check"></i>
+                                                </div>
+
+                                                <button class="product-card-btn">Xem Chi Tiết</button>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="row">
+                                    <div class="col-md-12 col-special">
+                                        <a href="" class="card border-0 bg-white-200 mb-4 p-2">
+                                            <div class=""><img src="img/product-tea.png" alt="Card image" /></div>
+                                            <div class="card-body">
+                                                <div class="line">
+                                                    <p class="pr-card-line"></p>
+                                                    <p>40g</p>
+                                                </div>
+                                                <div class="title">
+                                                    <p class="w-75 fs-18 fw-800">TRà xanh shan tuyết cổ thụ</p>
+                                                    <i class="fa-regular fa-square-check"></i>
+                                                </div>
+
+                                                <p class="title-2">Hương dịu mát, vị đậm đà có chút chát nhẹ và hậu ngọt thanh sâu lắng.</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- product-detail -->
+
+        <div class="product-detail pd-40 bg-white-200 position-relative">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="product-line bg-green"></div>
+                        <h4 class="product-subheading h2 color-green">Sản Phẩm</h4>
+                        <p class="product-subheading2 h2 color-green w-75 mt-0 text-center">
+                            Cộng có bán Bánh Trung Thu trăm - phần - trăm thủ công, được đựng xinh xắn trong 3 lựa chọn hộp HỒN NHIÊN - YÊN - LÀNH.
+                        </p>
+                        <div class="mt-5 m-auto w-50 btn-flex">
+                            <button class="btn me-2 bg-red color-white fw-800 btn3hover transition" type="button">Đặt Mua Ngay</button>
+
+                            <button class="btn me-2 bg-red color-white fw-800 btn3hover transition" type="button">Mua tại cửa hàng</button>
+                        </div>
+                        <img src="img/story2.png" alt="" class="img-story2" />
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-detail-box position-relative">
+                <div class="bg-details bg-green">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="row">
+                                    <div class="product-detail-inner d-flex">
+                                        <div class="col-md-4 box-shadow">
+                                            <img class="box-1" src="img/box-01.png" alt="" />
+                                        </div>
+                                        <div class="col-md-4">
+                                            <img src="img/box-02.png" alt="" class="box-2" />
+                                        </div>
+
+                                        <div class="col-md-4">
+                                            <div class="product-detail-content p-2">
+                                                <h4 class="product-detail-subheading h2 color-white">Hộp Hồn Nhiên</h4>
+                                                <div class="product-line bg-white"></div>
+                                                <h4 class="product-detail-price h4 color-yellow">669.000 VNĐ</h4>
+                                                <p class="product-detail-subheading2 h6 color-yellow">
+                                                    Hộp 06 bánh trung thu <br />01 quà tặng chuồn chuồn tre <br />
+                                                    01 túi đựng
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-details bg-green">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="product-detail-inner d-flex flex-row-reverse">
+                                    <div class="col-md-4 box-shadow">
+                                        <img class="box-3" src="img/box-01.png" alt="" />
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img src="img/box-06.png" alt="" class="box-4" />
+                                    </div>
+
+                                    <div class="col-md-4">
+                                        <div class="product-detail-content p-2">
+                                            <h4 class="product-detail-subheading h2 color-white text-start">HỘP yên</h4>
+                                            <div class="product-line bg-white ms-auto"></div>
+                                            <h4 class="product-detail-price h4 color-yellow text-left text-start">599.000 VNĐ</h4>
+                                            <p class="product-detail-subheading2 h6 color-yellow text-start">
+                                                Hộp 04 bánh trung thu <br />
+                                                01 hộp Trà Xanh Cổ Thụ <br />
+                                                01 quà tặng chuồn chuồn tre <br />
+                                                01 túi đựng
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-details bg-green">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="product-detail-inner d-flex">
+                                    <div class="col-md-4 box-shadow">
+                                        <img class="box-1" src="img/box-01.png" alt="" />
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img src="img/box-05.png" alt="" class="box-5" />
+                                    </div>
+
+                                    <div class="col-md-4">
+                                        <div class="product-detail-content p-2">
+                                            <h4 class="product-detail-subheading h2 color-white">Hộp lành</h4>
+                                            <div class="product-line bg-white"></div>
+                                            <h4 class="product-detail-price h4 color-yellow">469.000 VNĐ</h4>
+                                            <p class="product-detail-subheading2 h6 color-yellow">
+                                                Hộp 04 bánh trung thu <br />
+                                                01 quà tặng chuồn chuồn tre <br />
+                                                01 túi đựng
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- banner promotion-->
+
+        <div class="banner-promotion pd-80">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <button class="btn btn-sale bg-red color-white fw-800 transition" type="button">Ưu đãi đặt bánh sớm</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- sale -->
+        <div class="product-detail pd-120 bg-white-200 position-relative">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="product-line bg-green"></div>
+                        <h4 class="product-subheading h2 color-green">Đặt mua số lượng lớn</h4>
+                        <p class="product-subheading2 h2 color-green w-75 mt-0 text-center">
+                            Đối với đơn hàng số lượng lớn hoặc cần thêm thông tin, vui lòng liên hệ:&nbsp;
+                        </p>
+                        <div class="mt-5 m-auto w-75">
+                            <h4 class="product-detail-sale h4 color-yellow fw-800">Hotline: 0911.866.511</h4>
+                            <h4 class="product-detail-sale h4 color-yellow fw-800">Email: us@congcaphe.com</h4>
+                        </div>
+                        <img src="img/story.png" alt="" class="img-story4" />
+                        <img src="img/story3.png" alt="" class="img-story3" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- footer -->
+        <div class="footer bg-white-200 position-relative">
+            <div class="footer-inner bg-green">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img class="footer-img" src="img/footer.jpg" alt="" />
+                        </div>
+                        <div class="col-md-6">
+                            <h4 class="product-subheading h2 color-white">Đặt Hàng</h4>
+                            <p class="product-subheading2 h2 color-white w-75 mt-0 text-center">Mời bạn bấm vào đây để mang Trung Thu về nhà!</p>
+
+                            <button class="btn btn-sale bg-red color-white fw-800 transition" type="button">Tới Trang Đặt Hàng</button>
+                            <p class="product-subheading2 footer-title h2 color-white w-75 mt-0 text-center">
+                                (Vui lòng điền thông tin NGÀY NHẬN HÀNG vào phần GHI CHÚ trong GIỎ HÀNG.)
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>CỘNG CÀ PHÊ <span>&copy; </span> 2007</p>
+            </div>
+        </div>
+        <!-- Latest compiled JavaScript -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
